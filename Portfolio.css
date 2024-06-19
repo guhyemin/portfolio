@@ -142,8 +142,11 @@ header{
 /************************* sec1 *************************/
 .sec1 > img {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
+    object-fit: cover;
+    object-position: left bottom;
+    overflow: hidden;
 }
 .sec1 > video {
     width: 100%;
